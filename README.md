@@ -1,5 +1,5 @@
 # bendian
-generalized little-endian to big-endian and vice-versa conversion function
+generalized little-endian to big-endian and vice versa conversion function
 
 ## to test on unix
     cc -o bendian_test bendian.c bendian_test.c
