@@ -1,7 +1,5 @@
 # bendian
-generalized little-endian to big-endian conversion function
-
-can also be used to convert from big-endian to little-endian as the process is the same
+generalized little-endian to big-endian and vice-versa conversion function
 
 ## to test on unix
     cc -o bendian_test bendian.c bendian_test.c
