@@ -113,7 +113,7 @@ void *bendian(void *n, size_t l)
 		unsigned n_pop; /* number of linked list nodes already populated */
 		unsigned char* f;
 		for(n_pop = 0; cur != NULL; n_pop++, cur = cur->n) {
-			f = n + n_pop;
+			f = ((unsigned char *)n) + n_pop;
 			cur->v = *f;
 			f++;
 		}
